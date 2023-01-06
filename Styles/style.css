@@ -156,31 +156,56 @@ h4{
 }
 
 .about-text h2{
-    
     color: #9D00FF;
-    font-size: 50px;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
 }
 
 .about-text h5{
-    
     color: #FFFF33;
+    letter-spacing: 2px;
     font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
 }
 
 .about-text p{
-    
     color: #ffffff;
-    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
 
 button{
     color: white;
-    position: absolute;
-    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
     border: 2px solid #000000;
-    outline: none;
-    padding: 10px 30px;
+    padding: 13px 30px;
     border-radius: 30px;
     background-color: #1F51FF;
     box-shadow: 0px 0px 5px #000000, 0px 0px 15px #1F51FF ;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #9D00FF;
+    cursor: pointer;
+}
+
+.service{
+    background: #000000;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
